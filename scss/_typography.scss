@@ -1,5 +1,26 @@
 // Imported Fonts //
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+
 // Fonts //
 
+$font-primary: "DM Serif Display", serif;
+$font-secondary: "Karla", sans-serif;
+
 // Font Sizes //
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary, serif;
+  font-weight: 400;
+}
+
+p,
+nav,
+footer {
+  font-family: $font-secondary;
+}

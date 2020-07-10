@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AGEA,OAAO,CAAC,uGAAI,CFFZ,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACP,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACV,AAED,AAAA,GAAG,AAAC,CACF,SAAS,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,AAAC,CAET,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,MAAM,CAGd,QAAQ,CAAE,QAAQ,CACnB,AAED,AAAA,EAAE,AAAC,CACD,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AAED,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC/B,AErBD,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,AAAC,CACD,WAAW,CAXE,kBAAkB,CAAE,KAAK,CAWV,KAAK,CACjC,WAAW,CAAE,GAAG,CACjB,AAED,AAAA,CAAC,CACD,GAAG,CACH,MAAM,AAAC,CACL,WAAW,CAjBI,OAAO,CAAE,UAAU,CAkBnC,ACzBD,AAAA,MAAM,AAAC,CACL,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,KAAK,CACd,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,GAAG,CACb,ACLD,AAAA,cAAc,AAAC,CACb,gBAAgB,CAAE,8CAA8C,CAChE,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAE,KAAK,CACvB",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/_presets.scss",
+        "../../scss/_variables.scss",
+        "../../scss/_typography.scss",
+        "../../scss/_header.scss",
+        "../../scss/_hero.scss",
+        "../../scss/_main-section.scss",
+        "../../scss/_secondary-section.scss",
+        "../../scss/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

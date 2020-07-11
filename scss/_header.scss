@@ -1,6 +1,106 @@
 header {
   background: #fff;
-  padding: 1em 0;
-  position: relative;
+  position: fixed;
   z-index: 999;
+  width: 100%;
+  padding: 1em 0;
+  margin: -1.5em 0;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-toggle {
+  display: none;
+}
+.nav-toggle-label {
+  position: absolute;
+  top: -9px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: black;
+  height: 2px;
+  width: 1.7em;
+  border-radius: 2px;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: "";
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 5px;
+}
+
+.nav-toggle-label span::after {
+  top: 5px;
+}
+
+.nav__list {
+  text-align: center;
+  background: $dark-color;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  margin: 0.8em 0 0 0;
+  height: 100vh;
+  font-size: 20px;
+}
+
+.wrapper__nav {
+  background: url(/dist/images/bg-pattern-mobile-nav.svg);
+  background-repeat: no-repeat;
+}
+
+.nav__list ul {
+  list-style: none;
+}
+
+.nav__list li {
+  padding-bottom: 2.5em;
+}
+
+.nav__list .nav__item--initial {
+  padding-top: 2.5em;
+}
+
+.nav__list .nav__item--btm {
+  padding-top: 1em;
+}
+
+.nav__list li:nth-child(3) {
+  margin: -1em 0;
+}
+
+.nav__link {
+  color: $white-color;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  border: 1px solid $white-color;
+  padding: 0.5em 5em;
+}
+
+// Navigation Toggle //
+
+.nav-toggle:checked ~ .nav__list {
+  display: block;
 }

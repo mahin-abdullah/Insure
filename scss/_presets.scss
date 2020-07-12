@@ -27,7 +27,22 @@ ul {
   padding: 0;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 550px) {
+  .container__hero {
+    width: 90%;
+    margin: 0 auto;
+
+    /* added for nav-toggle positioning */
+    position: relative;
+  }
 }

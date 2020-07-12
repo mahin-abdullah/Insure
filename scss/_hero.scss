@@ -1,5 +1,52 @@
-.hero__wrapper {
-  background-image: url(/Easybank/dist/images/bg-intro-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.hero {
+  background: $vio-color;
+
+  .hero__img img {
+    width: 100%;
+  }
+
+  .hero__wrapper--top {
+    background: url(/dist/images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+  }
+
+  .hero__content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero__content h1,
+  .hero__content p {
+    text-align: center;
+  }
+
+  .hero__content h1 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.1;
+    padding: 2em 0 0 0;
+  }
+
+  .hero__content p {
+    color: $white-color;
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 0 0 2em 0;
+  }
+
+  .hero__wrapper--btm {
+    background: url(/dist/images/bg-pattern-intro-right-mobile.svg);
+    background-repeat: no-repeat;
+  }
+
+  .hero__item--btn {
+    font-family: $font-secondary;
+    text-align: center;
+    padding: 1em 0 7em 0;
+
+    .hero__link.btn {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 }

@@ -4,7 +4,6 @@ header {
   z-index: 999;
   width: 100%;
   padding: 1em 0;
-  margin: -1.5em 0;
 }
 
 .logo {
@@ -53,13 +52,15 @@ header {
 .nav__list {
   text-align: center;
   background: $dark-color;
-  display: none;
   position: absolute;
   z-index: 999;
   width: 100%;
   margin: 0.8em 0 0 0;
   height: 100vh;
   font-size: 20px;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
 }
 
 .wrapper__nav {
@@ -91,6 +92,8 @@ header {
   color: $white-color;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: all 220ms ease-out;
 }
 
 .nav__link:hover,
@@ -102,5 +105,5 @@ header {
 // Navigation Toggle //
 
 .nav-toggle:checked ~ .nav__list {
-  display: block;
+  transform: scale(1, 1);
 }

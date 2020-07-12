@@ -1,0 +1,19 @@
+.secondary__section {
+  background: $vio-color;
+  width: 90%;
+  margin: 0 auto 7em auto;
+
+  .secondary__wrapper {
+    background: url(/dist/images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .secondary__title {
+    padding: 3em 0 0 0;
+    color: $white-color;
+    font-size: 39px;
+    text-align: center;
+    line-height: 1.1;
+  }
+}

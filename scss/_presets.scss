@@ -33,6 +33,33 @@ h6 {
   padding: 0;
 }
 
+.global__wrapper--btm {
+  background: url(/dist/images/bg-pattern-intro-right-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+.global__item--btn {
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  padding: 1em 0 7em 0;
+
+  .global__link.btn {
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1.5px solid #fff;
+    padding: 0.6em 1.7em;
+    transition: all 350ms ease-in-out;
+    letter-spacing: 1px;
+  }
+
+  .global__link.btn:hover,
+  .global__link.btn:focus {
+    padding: 0.6em 2.3em;
+    letter-spacing: 2px;
+  }
+}
+
 .row {
   display: flex;
   justify-content: space-between;

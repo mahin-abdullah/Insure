@@ -34,17 +34,17 @@
     padding: 0 0 2em 0;
   }
 
-  .hero__wrapper--btm {
+  .global__wrapper--btm {
     background: url(/dist/images/bg-pattern-intro-right-mobile.svg);
     background-repeat: no-repeat;
   }
 
-  .hero__item--btn {
+  .global__item--btn {
     font-family: $font-secondary;
     text-align: center;
     padding: 1em 0 7em 0;
 
-    .hero__link.btn {
+    .global__link.btn {
       color: #fff;
       text-decoration: none;
       text-transform: uppercase;
@@ -54,8 +54,8 @@
       letter-spacing: 1px;
     }
 
-    .hero__link.btn:hover,
-    .hero__link.btn:focus {
+    .global__link.btn:hover,
+    .global__link.btn:focus {
       padding: 0.6em 2.3em;
       letter-spacing: 2px;
     }

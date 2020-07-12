@@ -1,0 +1,33 @@
+main {
+  padding: 7em 0 7em 0;
+
+  .hr__main {
+    width: 50%;
+    color: $white-color;
+  }
+
+  .main__title {
+    text-align: center;
+    padding: 1.3em 0 1.7em 0;
+  }
+
+  .main__title h1 {
+    font-size: 48px;
+    color: $dark-color;
+  }
+
+  .section__main {
+    text-align: center;
+    margin: 3.5em 0 0 0;
+  }
+
+  .section__main h6 {
+    font-size: 27px;
+    padding: 1em 0 0 0;
+  }
+
+  .section__main p {
+    color: $gray-color;
+    line-height: 1.6;
+  }
+}

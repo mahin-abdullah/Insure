@@ -47,6 +47,17 @@
     .hero__link.btn {
       color: #fff;
       text-decoration: none;
+      text-transform: uppercase;
+      border: 1.5px solid $white-color;
+      padding: 0.6em 1.7em;
+      transition: all 350ms ease-in-out;
+      letter-spacing: 1px;
+    }
+
+    .hero__link.btn:hover,
+    .hero__link.btn:focus {
+      padding: 0.6em 2.3em;
+      letter-spacing: 2px;
     }
   }
 }

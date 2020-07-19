@@ -66,6 +66,7 @@ header {
 .wrapper__nav {
   background: url(/dist/images/bg-pattern-mobile-nav.svg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav__list ul {
@@ -96,14 +97,96 @@ header {
   transition: all 220ms ease-out;
 }
 
-.nav__link:hover,
-.nav__link:focus {
-  border: 1px solid $white-color;
-  padding: 0.5em 5em;
+@media (max-width: 967px) {
+  .nav__link:hover,
+  .nav__link:focus {
+    border: 1px solid $white-color;
+    padding: 0.5em 5em;
+  }
 }
 
 // Navigation Toggle //
 
 .nav-toggle:checked ~ .nav__list {
   transform: scale(1, 1);
+}
+
+@media (min-width: 968px) {
+  header {
+    z-index: 1;
+  }
+
+  .nav-toggle-label,
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav__list li,
+  .nav__list .nav__item--initial,
+  .nav__list.nav__item--btm {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav,
+  .nav__list,
+  .logo,
+  .nav__list--flex {
+    display: flex;
+    flex-direction: row;
+    height: 4vh;
+    align-items: center;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .nav__list {
+    position: relative;
+    background: none;
+    transform: none;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    justify-content: flex-end;
+    transition: unset;
+  }
+
+  .nav__item.nav__item--btn.nav__item--btm {
+    display: flex;
+    padding: 0;
+    color: #000000;
+  }
+
+  .nav__item--btn {
+    border: 2.5px solid #000000;
+  }
+
+  .nav__link {
+    color: $gray-color;
+    font-size: 17px;
+    padding-right: 3.2em;
+    transition: unset;
+    font-weight: 700;
+  }
+
+  .nav__link.btn {
+    color: #000;
+    padding-right: 0;
+    margin: 0.6em 1.5em;
+  }
+
+  .nav__link:hover,
+  .nav__link:focus {
+    color: $vio-color;
+  }
+
+  .nav__link.padding {
+    padding-right: 3.2em;
+  }
+
+  .wrapper__nav {
+    background: none;
+  }
 }

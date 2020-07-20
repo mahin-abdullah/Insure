@@ -97,7 +97,7 @@ header {
   transition: all 220ms ease-out;
 }
 
-@media (max-width: 967px) {
+@media (max-width: 968px) {
   .nav__link:hover,
   .nav__link:focus {
     border: 1px solid $white-color;
@@ -134,7 +134,7 @@ header {
   .nav__list--flex {
     display: flex;
     flex-direction: row;
-    height: 4vh;
+    height: 5vh;
     align-items: center;
   }
 

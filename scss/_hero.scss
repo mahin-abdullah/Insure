@@ -1,8 +1,13 @@
 .hero {
   background: $vio-color;
 
+  .hero__img {
+    display: flex;
+    justify-content: center;
+  }
+
   .hero__img img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .hero__wrapper--top {
@@ -40,4 +45,51 @@
 }
 
 @media (min-width: 800px) {
+  .hero {
+    padding: 10em 0 4em 0;
+  }
+
+  .hero .hero__content {
+    margin: 0;
+  }
+
+  .hero .hero__img {
+    width: 40%;
+    order: 2;
+    display: flex;
+    position: absolute;
+    right: 0;
+    justify-content: end;
+  }
+
+  .hero .hero__wrapper--top {
+    background: none;
+    display: flex;
+    width: 52%;
+  }
+
+  .hero .hero__hr {
+    display: block;
+    width: 30%;
+    color: $white-color;
+    margin: 0;
+  }
+
+  .hero .hero__content h1 {
+    padding: 1em 0 0 0;
+    text-align: start;
+    font-size: 69px;
+  }
+
+  .hero .hero__content p {
+    text-align: start;
+  }
+
+  .global__wrapper--btm {
+    background: none;
+  }
+
+  .global__item--btn {
+    text-align: start;
+  }
 }

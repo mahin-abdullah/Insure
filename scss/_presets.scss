@@ -61,11 +61,6 @@ h6 {
   }
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-}
-
 @media (min-width: 550px) {
   .container__hero {
     width: 90%;
@@ -73,5 +68,12 @@ h6 {
 
     /* added for nav-toggle positioning */
     position: relative;
+  }
+}
+
+@media (min-width: 968px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
   }
 }

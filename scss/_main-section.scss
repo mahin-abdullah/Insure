@@ -31,3 +31,36 @@ main {
     line-height: 1.6;
   }
 }
+
+@media (min-width: 968px) {
+  main {
+    .hr__main {
+      width: 20%;
+      text-align: start;
+      margin: 0;
+    }
+
+    .main__title h1 {
+      font-size: 69px;
+      margin: 0;
+      padding: 0.5em 0;
+      text-align: start;
+    }
+
+    .section__main {
+      text-align: start;
+      margin: 0;
+      width: 30%;
+      margin: 3em 0 2em 0;
+    }
+
+    .section__main h6 {
+      font-size: 30px;
+      padding: 1em 0 0 0;
+    }
+
+    .section__main p {
+      font-size: 18px;
+    }
+  }
+}

@@ -88,7 +88,9 @@
   .global__wrapper--btm {
     background: none;
   }
+}
 
+@media (min-width: 968px) {
   .global__item--btn {
     text-align: start;
   }

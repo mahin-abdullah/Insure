@@ -1,5 +1,5 @@
 footer {
-  margin: 0 0 4.5em 0;
+  margin: 0 0 3em 0;
   .footer__wrapper {
     background: url(/dist/images/bg-pattern-footer-mobile.svg);
     background-repeat: no-repeat;
@@ -51,6 +51,75 @@ footer {
     .footer__item:hover,
     .footer__item:focus {
       opacity: 75%;
+    }
+  }
+
+  .attribution {
+    margin: 3em 0 0 0;
+    text-align: center;
+  }
+
+  .attribution p {
+    margin: 0;
+  }
+
+  .attribution p:nth-child(2) {
+    margin: 0.3em;
+  }
+
+  .attribution-section {
+    padding: 0.1em 0 0 0;
+  }
+
+  .attribution-link {
+    text-decoration: none;
+    color: $vio-color;
+  }
+}
+
+@media (min-width: 968px) {
+  footer {
+    margin: 0 0 1em 0;
+
+    .footer__wrapper {
+      padding: 1em 0;
+    }
+
+    .logo {
+      display: flex;
+      align-self: center;
+      padding: 0;
+    }
+
+    .social__icons {
+      display: flex;
+      align-self: center;
+
+      .fa-lg {
+        margin: 0 0.4em;
+      }
+    }
+
+    .hr__footer {
+      width: 80%;
+      margin: 2em auto 1em auto;
+    }
+
+    .footer__list {
+      text-align: start;
+    }
+
+    .attribution {
+      margin: 6em 0 0 0;
+      text-align: center;
+    }
+
+    .attribution p:nth-child(2) {
+      margin: 0.5em;
+    }
+
+    .attribution-link {
+      margin: 0.3em;
     }
   }
 }
